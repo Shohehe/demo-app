@@ -6,7 +6,7 @@ var PORT = 9898;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Version: 1.0\n');
+  res.send('Version: 1.1\n');
 });
 
 app.listen(PORT);
